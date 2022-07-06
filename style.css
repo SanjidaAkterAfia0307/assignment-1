@@ -13,9 +13,12 @@ h1{
 }
 h3{
     font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .all-p{
     color: grey;
+    font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 400px;
@@ -25,7 +28,7 @@ h3{
     
 .header-txt p{
     font-size: 1.5rem;
-    color: white;
+    color: whitesmoke;
 }
 .btn button{
     width: 220px;
@@ -37,6 +40,9 @@ h3{
     color: white;
     font-size: 25px;
     font-weight: 540;
+}
+.btn button:hover{
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
 }
 .header{
     display: flex;
@@ -52,10 +58,12 @@ h3{
 
 .header-heading h1{
     margin: 40px;
+    margin-top: 100px;
 }
 
 .donate-sec{
     text-align: center;
+    margin: 50px;
     padding: 50px;
 
 }
@@ -70,7 +78,7 @@ h3{
     color: grey;
     background-color: rgba(128, 128, 128, 0.055);
 }
-#extra-ordinary-btn{
+.donate-amount button:hover{
     border: 3px solid rgb(243, 85, 85);
     color:rgb(243, 85, 85) ;
     background-color: rgba(250, 98, 87, 0.164);
@@ -85,23 +93,29 @@ h3{
     
 }
 .donate-input input{
+    width: 500px;
+    text-align: center;
     border: none;
     font-size:20px;
     
 }
-.donate-input::placeholder{
+.donate-input ::placeholder{
     color: rgba(128, 128, 128, 0.5);
     font-size: 25px;
+}
+.donate-input input:focus{
+    outline: none;
 }
 
 .donation-plan{
     text-align: center;
+    margin: 50px;
     padding: 80px;
 }
 
 .donation-plan-card{
-    width: 480px;
-    height: 450px;
+    width: 420px;
+    height: 500px;
     padding: 30px;
     margin: 20px;
     text-align: left;
@@ -115,6 +129,10 @@ h3{
 }
 .card-des{
     color: grey;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 20px ;
+   
 }
 
 #card2-bg{
@@ -133,4 +151,78 @@ h3{
     width: 650px;
     height: 700px;
     background-color: bisque;
+    text-align: left;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    margin: 40px 20px 5px 30px ;
+    font-size: 1.5rem;
+    color: rgb(97, 95, 95);
+}
+.form-div input{
+    width: 100%;
+    height: 40px;
+    margin: 2px 20px 25px 30px ;
+    border: none;
+    background-color: rgba(150, 150, 150, 0.288);
+    border-radius: 5px;
+}
+
+::placeholder{
+    font-size: 15px;
+    padding: 2px 15px;
+}
+
+.form-div input:focus{
+    background-color: bisque;  
+    outline: none;
+    border-bottom: 2px solid grey;
+    
+}
+
+.form-btn{
+    text-align: center;
+}
+
+.form-btn button{
+    width: 150px;
+    height: 40px;
+    padding: 2px 5px;
+    margin: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(150, 150, 150, 0.288) ;
+    font-size: 1.2rem;
+    color: rgb(80, 79, 79);
+}
+
+.form-btn button:hover{
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px grey;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: black;
+}
+.footer-heading{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lobster', 'cursive';
+    font-weight:bolder;
+    font-size: 40px;
+    color: rgba(241, 53, 53, 0.774);
+
+}
+
+.footer-para{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(226, 223, 223, 0.822);
 }
