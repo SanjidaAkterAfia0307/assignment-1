@@ -22,7 +22,7 @@ h3{
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 400px;
-    margin-right: 400px; 
+    margin-right: 400px;
     text-align: center;
 }
     
@@ -63,7 +63,7 @@ h3{
 
 .donate-sec{
     text-align: center;
-    margin: 50px;
+    margin: 200px;
     padding: 50px;
 
 }
@@ -108,13 +108,14 @@ h3{
 }
 
 .donation-plan{
+    width: 95%;
     text-align: center;
-    margin: 50px;
-    padding: 80px;
+    margin: 60px;
+   
 }
 
 .donation-plan-card{
-    width: 420px;
+    width: 400px;
     height: 500px;
     padding: 30px;
     margin: 20px;
@@ -225,4 +226,41 @@ footer{
     font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
     color: rgba(226, 223, 223, 0.822);
+}
+
+
+
+.journey{
+    width: 100%;
+    margin-bottom: 200px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.journey-half,.journey-another-half{
+    text-align: center;
+    display: flex;
+    margin: 80px;
+}
+
+.journey-des{
+    text-align: left;
+    width: 600px;
+    height: 400px;
+    padding: 60px;
+    font-size: 1.5rem;
+    color: grey;
+    margin: 60px;
+}
+.journey-img img{
+   width: 600px;
+   height: 500px;
+   border-radius: 8px;
+}
+.journey-img{
+    width: 600px;
+    height: 400px;
+    padding: 60px;
+    margin: 60px;
 }
