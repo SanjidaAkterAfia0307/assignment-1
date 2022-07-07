@@ -3,6 +3,7 @@
     font-family: 'Karla', sans-serif;
     box-sizing: border-box;
 }
+/*header starts*/
 h1{
     font-family: 'Rubik', sans-serif;
     font-size: 6rem;
@@ -51,7 +52,7 @@ h3{
     color: whitesmoke;
     width: 100%;
     height: 100vh;
-    background-image: url(images/donation1.jpg);
+    background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -60,7 +61,9 @@ h3{
     margin: 40px;
     margin-top: 100px;
 }
+/*header ends*/
 
+/*donate section start*/
 .donate-sec{
     text-align: center;
     margin: 200px;
@@ -107,6 +110,51 @@ h3{
     outline: none;
 }
 
+/*donate section ends*/
+
+/*journey start*/
+.journey{
+    width: 100%;
+    margin-bottom: 200px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.journey-half,.journey-another-half{
+    text-align: center;
+    display: flex;
+    margin: 80px;
+}
+
+.journey-des{
+    text-align: left;
+    width: 600px;
+    height: 400px;
+    padding: 60px;
+    margin: 60px;
+    font-size: 1.5rem;
+    color: grey;
+    margin: 60px;
+}
+.journey-img img{
+   width: 600px;
+   height: 500px;
+   border-radius: 8px;
+}
+.journey-img{
+    width: 600px;
+    height: 400px;
+    padding: 60px;
+    margin: 60px;
+}
+
+#extra-width-btn button{
+    width: 250px;
+}
+/*journey ends*/
+
+/*donation plan start*/
 .donation-plan{
     width: 95%;
     text-align: center;
@@ -142,7 +190,9 @@ h3{
 #card3-bg{
     background-color:rgba(255, 235, 205, 0.466);
 }
+/*donation plan ends*/
 
+/* update section start*/
 .update-sec{
     text-align: center;
     width: 100%;
@@ -203,7 +253,9 @@ label{
 .form-btn button:hover{
     box-shadow: 2px 2px 5px gray, -2px -2px 5px grey;
 }
+/*update section ends*/
 
+/*footer start*/
 footer{
     width: 100%;
     height: 200px;
@@ -228,39 +280,4 @@ footer{
     color: rgba(226, 223, 223, 0.822);
 }
 
-
-
-.journey{
-    width: 100%;
-    margin-bottom: 200px;
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-}
-
-.journey-half,.journey-another-half{
-    text-align: center;
-    display: flex;
-    margin: 80px;
-}
-
-.journey-des{
-    text-align: left;
-    width: 600px;
-    height: 400px;
-    padding: 60px;
-    font-size: 1.5rem;
-    color: grey;
-    margin: 60px;
-}
-.journey-img img{
-   width: 600px;
-   height: 500px;
-   border-radius: 8px;
-}
-.journey-img{
-    width: 600px;
-    height: 400px;
-    padding: 60px;
-    margin: 60px;
-}
+/*footer ends*/
